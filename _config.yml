@@ -1,0 +1,77 @@
+title: BJC Summer Academy; Blue Section
+tagline:
+author: Sarah Taylor, Mansi Shah
+baseurl: /bjc-su22-blue # the subpath of your site, e.g. /blog
+url: https://cs10.org
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+
+logo: "./assets/images/bjc.png"
+
+# Theme settings
+remote_theme: pmarsceill/just-the-docs@v0.3.3
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+permalink: pretty
+aux_links_new_tab: true
+ga_tracking: UA-47210910-1
+external_navigation:
+  - title: Snap!
+    url: https://snap.berkeley.edu/
+footer_content:
+
+labsurl: https://cs10.org/
+
+###### TODO: UPDATE THESE, CURRENTLY UNUSED
+# This section controlls the interactive google calendar.
+# Should be in MomentJS format
+startDate: 2016-01-17 # First Sunday
+endDate:   2016-05-14 # Last Saturday
+
+# Change the calendar to show Sun-Sat instead of M-F when an exam is near
+questDate: 2016-02-17
+midtermDate: 2016-03-16
+finalDate: 2016-05-10
+# from console.developers.google.com
+# This key can be public and is tied to a users calendar accesses
+# whoever this key belongs to should have access to the CS10 galendars.
+gcalAPIKey: AIzaSyBcbN6F79dPHiGMvftIKZB86A6Ki2eIKZs
+
+###############################################
+# Collections for website data
+collections:
+  staffers:
+  modules:
+  announcements:
+# Default layouts for each collection type
+defaults:
+  - scope:
+      path: ''
+      type: staffers
+    values:
+      layout: staffer
+      subpath: '/assets/images/'
+  - scope:
+      path: ''
+      type: modules
+    values:
+      layout: module
+  - scope:
+      path: ''
+      type: announcements
+    values:
+      layout: announcement
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+plugins:
+  - jekyll-seo-tag
+
+just_the_docs:
+  collections:
