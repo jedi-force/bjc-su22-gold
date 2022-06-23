@@ -13,7 +13,7 @@ UC Berkeley, Summer 2022
 {{ site.description }}
 {: .mb-2 .fs-5 }
 
-**Instructors:** Sarah Taylor and Mansi Shah
+**Instructors:** Brendan Henrique and Victoria Phelps
 {: .fs-4 }
 
 ## Course Calendar
@@ -21,6 +21,6 @@ UC Berkeley, Summer 2022
 {% include_relative calendar.md %}
 
 ## Contact Information
-You may contact us at 20sgtaylor (at) berkeley.edu (Sarah) and emansishah (at) berkeley.edu (Mansi).
+You may contact us at bhenrique (at) berkeley.edu (Brendan) and jedi_force (at) berkeley.edu (Victoria).
 
 Please ensure you email *both of us* together if you contact us and follow all of the Pre-College program policies regarding emailing staff.

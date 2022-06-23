@@ -1,7 +1,7 @@
 title: BJC Summer Academy; Blue Section
 tagline:
-author: Sarah Taylor, Mansi Shah
-baseurl: /bjc-su22-blue # the subpath of your site, e.g. /blog
+author: Sarah Taylor, Mansi Shah, Victoria Phelps, Brendan Henrique
+baseurl: /bjc-su22-gold # the subpath of your site, e.g. /blog
 url: https://cs10.org
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
