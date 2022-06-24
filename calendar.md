@@ -61,7 +61,7 @@
       <td rowspan = "6"></td>
     </tr>
     <tr>
-      <td><a href="/bjc-su22-blue/assignment?tinyurl.com/bjc-project1">Finish Project 1 </a></td>
+      <td><a href="/bjc-su22-gold/assignment?tinyurl.com/bjc-project1">Finish Project 1 </a></td>
     </tr>
     <tr>
       <td rowspan = "2">Block 2: 1:30-3:30PM</td>
