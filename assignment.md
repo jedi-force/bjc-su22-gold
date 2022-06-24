@@ -1,5 +1,5 @@
 ---
-title: CS10 Homework Assignment
+title: BJC Project Specification
 nav_exclude: true
 ---
 <script type="text/javascript">
